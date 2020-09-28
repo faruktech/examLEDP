@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator-main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 86vh;
+    background: #091921;
+}
+
+ .calculator-section h2 {
+    background: #091921;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #00ffffbf;
+    text-shadow: 2px 2px 2px red;
+    font-size: 54px;
+    padding: 25px 0 0;
+}
+
+.calculator{
+    position: relative;
+    display: grid;
+}
+
+.calculator .value {
+    grid-column: span 4;
+    height: 79px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculator span {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #17153ea6;
+    color: #fff;
+    text-align: center;
+    border: 2px solid rgb(0 0 0 / 20%);
+}
+.calculator span:hover{
+    background: #74ff3b;
+    color: #111;
+}
+
+.calculator span.clear {
+    grid-column: span 2;
+    width: 120px;
+    background: #3066ffa6;
+}
+.calculator span.plus{
+    grid-row: span 2;
+    height: 120px;
+}
+.calculator span.equal {
+    background: #e402ffb8;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.Transform-section {
+    background: #090b2159;
+    height: 100vh;
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background: #33ec30;
+    margin: 200px auto;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    border: 2px solid #353232;
+}
+.line {
+    height: 1%;
+    width: 100%;
+    border: 2px solid #fff;
+    margin-top: 100px;
+}
+.ball:hover {
+    cursor: pointer;
+    transition: all 1s linear;
+    transform: scale(1.5);
+}
+.Transform-section h2 {
+    background: #090b2159;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #102133bf;
+    text-shadow: 2px 2px 2px #002bff75;
+    font-size: 54px;
+    padding: 25px 0 0;
+}
+.log-in {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+    box-shadow: 1px 1px 7px 0 rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.log-in h3 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+    font-size: 49px;
+}
+.box input {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    outline: none;
+}
+.box button {
+    color: #1c1d23db;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+    background: darkseagreen;
+    font-family: cursive;
+    cursor: pointer;
+}
+.now{
+    background: #5f9f5f;
+}
+hr{
+    margin-top: 20px;
+    width: 80% auto;
+}
+.box span{
+    
+}
+
+
+
+.calander-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #352b48;
+    
+}
+
+.calender{
+    position: relative;
+    background: #fff;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 15px solid #fff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.calender .date{
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.calender .date h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.calender .date .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender .date .days .day, .calender .date .days .number {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0000001f;
+}
+.calender .date .days .day:first-child,
+.calender .date .days .number:nth-child(7n+1)
+{
+    color: #f44336;
+    font-weight: 600;
+}
+
+
+.calender .image {
+    position: absolute;
+    top: 22px;
+    right: -8px;
+    width: 400px;
+    height: 400px;
+}
+.calender .image img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
